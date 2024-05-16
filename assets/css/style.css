@@ -1,25 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap');
 
-/** Variables - colors **/
 :root {
-    /* Light */
     --color-light-50: #f8fafc;
 
-    /* Dark */
     --color-dark-50: #797984;
     --color-dark-100: #312d37;
     --color-dark-900: #000;
 
-    /* Purple */
     --color-purple-50: #7c3aed;
     --color-purple-100: #a855f7;
     --color-purple-200: #bf46ef;
 
-    /* Gradient */
     --color-gradient: linear-gradient(90deg, var(--color-purple-50), var(--color-purple-100), var(--color-purple-200));
 }
 
-/* General */
 * {
     font-family: 'Poppins', sans-serif;
     margin: 0;
@@ -48,7 +42,6 @@
     animation: dark-to-light-background 0.3s ease-in-out;
 }
 
-/* Form Header */
 #form_header {
     display: flex;
     align-items: center;
@@ -75,7 +68,6 @@
     font-size: 20px;
 }
 
-/* Social Media */
 #social_media {
     display: flex;
     justify-content: space-around;
@@ -89,7 +81,6 @@
     transform: scale(1.2);
 }
 
-/* Inputs */
 #inputs {
     display: flex;
     align-items: center;
@@ -130,7 +121,6 @@
     outline: none;
 }
 
-/* Forgot password */
 #forgot_password a {
     text-decoration: none;
     color: var(--color-dark-50);
@@ -141,7 +131,6 @@
     color: var(--color-purple-50);
 }
 
-/* Login Button */
 #login_button {
     border: none;
     background: var(--color-gradient);
@@ -157,7 +146,6 @@
     transform: scale(1.05);
 }
 
-/* Dark Mode */
 .dark#login_form {
     color: var(--color-light-50);
     background-color: var(--color-dark-100);
