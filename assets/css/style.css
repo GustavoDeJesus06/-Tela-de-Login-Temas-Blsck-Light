@@ -79,6 +79,7 @@
 
 #social_media img:hover {
     transform: scale(1.2);
+    transition: all linear .2s;
 }
 
 #inputs {
@@ -144,6 +145,7 @@
 
 #login_button:hover {
     transform: scale(1.05);
+    transition: all linear .2s;
 }
 
 .dark#login_form {
